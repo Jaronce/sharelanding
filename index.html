@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h3>Your friend just got this recommendation for tonight using UberHelper</h3>
+        <div class="reco">
+            <div id="sparkle" class="crown-rank">
+                <img src="https://image.flaticon.com/icons/svg/1071/1071623.svg" style="width: 60px;">
+            </div>
+            <div id="food">
+                <img src="https://media.istockphoto.com/photos/japanese-food-picture-id917919440?k=6&m=917919440&s=612x612&w=0&h=sr2wMzWpBLmGhAK8nGNb85HoY6SvudHvIcXRaAkOQVI=" alt="ramen photo" style="width: 120px;">
+            </div>
+        </div>
+        <div class="try">
+            <p>Let's try UberHelper too and see what food you should order tonight!</p>
+            <button type="button" id="myButton" class="btn btn-primary"> Try! </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        document.getElementById("myButton").onclick = function () {
+            location.href = "https://www.ubereats.com/ca/game";
+        };
+    </script>
+</body>
+</html>
